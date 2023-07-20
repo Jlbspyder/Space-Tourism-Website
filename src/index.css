@@ -167,7 +167,7 @@ span {
 .landscape {
   width: 90%;
   margin-top: 2rem;
-  animation: zoom 1s ease-in-out;
+  animation: slide 1s ease-in-out;
 }
 .border-line {
   background-color: var(--white);
@@ -259,7 +259,7 @@ span {
 ._crew {
   width: 80%;
   margin-top: 5.7rem;
-  animation: zoom 1s ease-in-out;
+  animation: slide 1s ease-in-out;
 }
 .crew .heading {
   margin: 0 0 5rem 2rem;
@@ -383,13 +383,21 @@ span {
   color: var(--dark);
 }
 
-@keyframes zoom {
+@keyframes slide {
   0% {
     transform: scale(0.7);
 
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes zoom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @media (max-width: 380px) {
