@@ -14,7 +14,9 @@ const HomePage = () => {
                   because we’ll give you a truly out of this world experience!
                 </p>
             </div>
-              <Link to='/destination'> <button className='explore'> <h3>Explore</h3></button> </Link> 
+            <div className='explore-container'>
+              <Link to='/destination'><button className='explore'><h3>Explore</h3></button></Link> 
+            </div>
         </div>
     </main>
   )
