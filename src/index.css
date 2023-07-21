@@ -384,7 +384,9 @@ span {
   background-color: var(--white);
   color: var(--dark);
 }
-
+._tech .circle:hover {
+  border: 1px solid white;
+}
 @keyframes slide {
   0% {
     transform: scale(0.7);
