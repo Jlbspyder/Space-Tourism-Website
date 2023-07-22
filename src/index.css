@@ -303,6 +303,7 @@ span {
 
 .list  {
   margin-right: 1rem;
+  padding-block: 0.5rem;
   background-color: transparent;
   border: none;
   text-transform: uppercase;
