@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://jlb-space-tourism-website.netlify.app/destination](https://jlb-space-tourism-website.netlify.app/destination)
+- Live Site URL: [https://jlb-space-tourism-website.netlify.app/](https://jlb-space-tourism-website.netlify.app/)
 
 
 ### Built with
